@@ -1,0 +1,244 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	
+        System.out.println("hello");
+        System.out.println("enter your age:");
+        Scanner sc= new Scanner(System.in);
+        int age= sc.nextInt();
+        if(age>=18) {
+            System.out.println("Eligible to vote");
+        }
+        System.out.println("Not Eligible to vote");
+    }
+}
+---------------------------------------------------------------------------------------------------------------------
+
+//if Else statement
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        System.out.println("enter your age:");
+        Scanner sc= new Scanner(System.in);
+        int age= sc.nextInt();
+        System.out.println(age>=18);
+        if(age>=18) {
+            System.out.println("Eligible to vote");
+        }
+        else {
+            System.out.println("Not Eligible to vote");
+        }
+    }
+}
+------------------------------------------------------------------------------------------------------------------------
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        System.out.println("enter your age:");
+        Scanner sc= new Scanner(System.in);
+        int age= sc.nextInt();
+        if(age>=18) {
+            System.out.println("Eligible to vote");
+        }
+        else if(age>=10){
+            System.out.println("Eligible for school , wait for 8years");
+        }
+        else {
+            System.out.println("Not Eligible to vote");
+        }
+    }
+}
+*/
+
+--------------------------------------------------------------------------------------------------------------
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        System.out.println("enter your age:");
+        Scanner sc= new Scanner(System.in);
+        int age= sc.nextInt();
+        if(age>=18) {
+            if(age<=22) {
+                System.out.println("Eligible to vote");
+            }
+            else {
+                System.out.println("Marraiage");
+            }
+        }
+        else if(age>=10){
+            System.out.println("Eligible for school voting");
+        }
+        else {
+            System.out.println("Not Eligible to vote");
+        }
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------
+
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+        System.out.println("hello");
+        System.out.println("enter your age:");
+        Scanner sc= new Scanner(System.in);
+        int age= sc.nextInt();
+        switch (age){
+            case 18:
+                System.out.println("Eligible to vote");
+                break;
+            case 22:
+                System.out.println("Eligible to marraiage");
+                break;
+            case 10:
+                System.out.println("not Eligible Go to school");
+                break;
+            default:
+                System.out.println("not Eligible");
+        }
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------
+//loop Statements
+
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        int age,i;
+        for( i=0;i<=5;i++) {
+            System.out.println("enter your age:");
+            Scanner sc = new Scanner(System.in);
+            age = sc.nextInt();
+        }
+
+
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------
+// while loop
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        int i=0;
+        while(i<5){
+            System.out.println("hello:");
+                   i++;
+        }
+
+
+    }
+}
+----------------------------------------------------------------------------------------------------------
+// Do while loop
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        System.out.println("hello");
+        int i=0;
+        do{
+
+            System.out.println("hello:");
+            i++;
+
+        }while (i<5);
+
+
+    }
+}
+---------------------------------------------------------------------------------------------------
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        for(int i=0;i<5;i++) {
+
+            System.out.println("hello");
+            break;
+
+        }
+
+    }
+}
+-------------------------------------------------------------------------------------------------------------
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        int [] array = new int[100];
+        
+
+    }
+}
+--------------------------------------------------------------------------------------------------------------------
+              
+package com.company;
+import java.util.*;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+        static int number =0;
+        int age=0;
+        Main object1= new Main();
+        object1.number=1;
+        Main object2= new Main();
+        System.out.println(object2.number);
+
+       
+        System.out.println(12);
+    }
+}
